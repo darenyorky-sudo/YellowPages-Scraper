@@ -11,3 +11,7 @@ A robust web scraper built with Playwright to extract business information (Name
 1. Install dependencies: `pip install playwright`
 2. Install browsers: `python -m playwright install`
 3. Run the script: `python scraper/main.py`
+   ## Why this scraper is effective
+- **Stateless Architecture:** Creates a fresh browser context for every page, effectively bypassing anti-bot protections.
+- **Human-like Behavior:** Implements randomized delays and follows best practices to mimic real-user interaction.
+- **Maintainable Codebase:** Separated configuration, utilities, and core logic for easy scaling and updates.
