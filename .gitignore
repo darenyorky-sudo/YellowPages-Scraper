@@ -1,5 +1,7 @@
 .venv/
-__pycache__/
-*.csv
+.idea/
 .env
-report_chart.png
+*.csv
+*.png
+__pycache__/
+*.pyc

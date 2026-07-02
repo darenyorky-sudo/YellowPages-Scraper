@@ -1,17 +1,20 @@
-# YellowPages Scraper
+# B2B Automated Lead Generation Pipeline
 
-A robust web scraper built with Playwright to extract business information (Name, Phone, Website) from YellowPages.
+A professional, automated data extraction pipeline designed to scrape business leads, process data, and generate analytical reports.
 
 ## Features
-- Stateless scraping: Opens a fresh session per page to bypass anti-bot protections.
-- Randomized delays to mimic human behavior.
-- Configuration-driven: Easily change search terms or location in `config.py`.
+- **Automated Web Scraping:** Uses Playwright to navigate complex pages and bypass bot detection.
+- **Data Enrichment:** Automatically formats business information (Name, Phone, Website).
+- **Visual Analytics:** Generates automated bar charts to visualize data trends.
+- **Smart Delivery:** Dispatches structured datasets and reports directly to your email via SMTP.
 
-## Setup
-1. Install dependencies: `pip install playwright`
-2. Install browsers: `python -m playwright install`
-3. Run the script: `python scraper/main.py`
-   ## Why this scraper is effective
-- **Stateless Architecture:** Creates a fresh browser context for every page, effectively bypassing anti-bot protections.
-- **Human-like Behavior:** Implements randomized delays and follows best practices to mimic real-user interaction.
-- **Maintainable Codebase:** Separated configuration, utilities, and core logic for easy scaling and updates.
+## Tech Stack
+- **Language:** Python 3.x
+- **Automation:** Playwright
+- **Analytics:** Pandas, Matplotlib
+- **Delivery:** Gmail SMTP
+
+## Getting Started
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
